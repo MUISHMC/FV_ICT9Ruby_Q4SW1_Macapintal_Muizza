@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Q4 Seatwork1</title>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css">
+	<style>
+		.wone {
+			margin-top: 50px;
+			font-family: CCAstroCity;
+			color: black;
+		}
+
+		 #money {
+            height: 500px;
+            width: 550px;
+        }
+
+        body {
+            background-image: url(https://c.wallhere.com/photos/bc/f5/Fritz_von_Wille_Germany_painting_landscape_artwork_classic_art_classical_art-1746115.jpg!d);
+            background-repeat: no-repeat;
+            background-size: 115%;  
+        }
+
+	</style>
+</head>
+<body>
+	<center>
+		<div id="divone">
+	<h1 id="sample">Sample</h1>
+	<br> <br>
+		</div>
+
+	    <img id="money" src="https://i.pinimg.com/originals/df/cc/f6/dfccf67374fc31078a26814485ca3627.png"><br><br><br>
+	    <a href="index.html" class="btn btn-light btn-lg">back to main</a>
+	</center>
+
+	<script type="text/javascript">
+		let Peso, Value, Euro; //Declare variable
+		Peso= 100;
+		Value= 0.016314;
+		Euro=Peso*Value; //compute for c
+		document.getElementById('sample').innerHTML="<h2 class='wone'> 100 Pesos is equivalent to " + Euro +" € </h2>";
+	</script>
+
+</body>
+</html>
